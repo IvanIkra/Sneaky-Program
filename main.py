@@ -2,7 +2,7 @@ import tkinter as tk
 import random
 
 
-class ValentineApp:
+class App:
     def __init__(self, root):
         self.root = root
         self.root.title("Valentine's Day")
@@ -74,5 +74,5 @@ class ValentineApp:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = ValentineApp(root)
+    app = App(root)
     root.mainloop()
